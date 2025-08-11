@@ -1,5 +1,63 @@
 {
   "dependencies": {
+    "com.blueoyster.dynamics-unity": {
+      "version": "https://github.com/justinawrey/dynamics-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.mathematics": "1.3.2"
+      },
+      "hash": "fc92a60d5f1afa74493c093a805d0ade2527f45e"
+    },
+    "com.blueoyster.json-persistence-unity": {
+      "version": "https://github.com/justinawrey/json-persistence-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "808e8ad65463f44ff03cd1c4ad0470a9778a0b27"
+    },
+    "com.blueoyster.reactive-unity": {
+      "version": "https://github.com/justinawrey/reactive-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b2b73121dce8b3629b314ffa11e185def03072df"
+    },
+    "com.blueoyster.scene-transitions-unity": {
+      "version": "https://github.com/justinawrey/scene-transitions-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.10"
+      },
+      "hash": "ba6736e2246795bf4d255a3ad6dfb5c064862e8d"
+    },
+    "com.blueoyster.singletons-unity": {
+      "version": "https://github.com/justinawrey/singletons-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e258d36bb5a6f8c965a8a57f98439e9f204911a2"
+    },
+    "com.blueoyster.stores-unity": {
+      "version": "https://github.com/justinawrey/stores-unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.blueoyster.json-persistence-unity": "1.6.0",
+        "com.blueoyster.reactive-unity": "3.7.9"
+      },
+      "hash": "efbe222c4ccdc1ac4767a271dd08ac7f9c39d487"
+    },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f213ff497e4ff462a77319cf677cf20cc0860ca9"
+    },
     "com.unity.burst": {
       "version": "1.8.23",
       "depth": 2,
@@ -8,13 +66,6 @@
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.collab-proxy": {
-      "version": "2.8.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
@@ -45,7 +96,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.14.0",
+      "version": "1.14.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -55,22 +106,21 @@
     },
     "com.unity.mathematics": {
       "version": "1.3.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.multiplayer.center": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.uielements": "1.0.0"
-      }
-    },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
       "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
